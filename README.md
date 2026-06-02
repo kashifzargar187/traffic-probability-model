@@ -1,118 +1,108 @@
-## Project Description
-This project uses time-of-day traffic data to estimate the probability of congestion during different hours of the day. It analyzes peak traffic periods and visualizes congestion likelihood using graphs and charts.
-
----
-
-# Working Progress Report
+# Traffic Probability Model - 25 Day Development Log
 
 ## Day 1
-- Project topic selection
-- Problem statement identified
+Selected the project topic "Traffic Probability Model" and defined the project objectives.
 
 ## Day 2
-- Research on traffic congestion analysis
-- Collected sample traffic datasets
+Studied traffic congestion concepts and how traffic patterns vary throughout the day.
 
 ## Day 3
-- Studied probability modeling concepts
-- Planned project workflow
+Researched probability-based traffic analysis techniques and data visualization methods.
 
 ## Day 4
-- Installed Python and required libraries
-- Configured development environment
+Installed Python and required libraries such as Pandas, NumPy, and Matplotlib.
 
 ## Day 5
-- Created project folder structure
-- Initialized GitHub repository
+Created the project folder structure and initialized the development environment.
 
 ## Day 6
-- Created initial traffic dataset
-- Organized hourly traffic records
+Designed the sample traffic dataset containing hourly traffic counts for 24 hours.
 
 ## Day 7
-- Imported dataset using Pandas
-- Verified data formatting
+Created a Python script and imported the traffic dataset into a Pandas DataFrame.
 
 ## Day 8
-- Performed basic data cleaning
-- Removed inconsistencies
+Validated dataset structure and checked for consistency in traffic records.
 
 ## Day 9
-- Started congestion probability calculations
-- Implemented traffic normalization logic
+Calculated maximum, minimum, and average traffic counts from the dataset.
 
 ## Day 10
-- Calculated congestion percentages
-- Tested probability outputs
+Implemented congestion probability calculation using normalized traffic values.
 
 ## Day 11
-- Improved calculation accuracy
-- Added comments to code
+Verified probability calculations and tested output accuracy.
 
 ## Day 12
-- Created line graph visualization
-- Displayed hourly congestion trends
+Developed traffic classification logic for Low, Moderate, High, and Severe congestion levels.
 
 ## Day 13
-- Added graph labels and titles
-- Improved graph readability
+Implemented a custom function to categorize traffic conditions based on probability values.
 
 ## Day 14
-- Tested different traffic scenarios
-- Analyzed peak-hour behavior
+Analyzed peak traffic periods and identified hours with high congestion probability.
 
 ## Day 15
-- Optimized Python code
-- Reduced redundant operations
+Performed low-traffic analysis to identify non-peak traffic hours.
 
 ## Day 16
-- Created CSV dataset file
-- Exported processed traffic data
+Created morning rush-hour analysis for traffic between 7 AM and 10 AM.
 
 ## Day 17
-- Created Google Spreadsheet dataset
-- Uploaded traffic records
+Implemented evening rush-hour analysis for traffic between 4 PM and 7 PM.
 
 ## Day 18
-- Added charts in Google Sheets
-- Compared graphical outputs
+Generated summary statistics including total traffic volume and average congestion probability.
 
 ## Day 19
-- Updated README documentation
-- Added project instructions
+Exported processed traffic analysis results to a CSV file for future use.
 
 ## Day 20
-- Uploaded project files to GitHub
-- Verified repository structure
+Created a line graph to visualize congestion probability across different hours.
 
 ## Day 21
-- Generated project screenshots
-- Verified graph outputs
+Developed a bar chart to compare hourly traffic counts.
 
 ## Day 22
-- Tested complete project execution
-- Checked for runtime errors
+Generated a histogram to study the distribution of congestion probabilities.
 
 ## Day 23
-- Reviewed project documentation
-- Improved file organization
+Implemented detailed hourly reporting to display traffic statistics for every hour.
 
 ## Day 24
-- Shared GitHub repository access
-- Shared Google Sheet access
+Reviewed project outputs, graphs, and generated reports for accuracy and completeness.
 
 ## Day 25
-- Final project review
-- Prepared project for submission
+Finalized documentation, organized project files, and prepared the project for GitHub and Google Sheets submission.
 
 ---
 
-# Technologies Used
+## Project Outcome
+
+The Traffic Probability Model successfully analyzes hourly traffic data and estimates congestion probability throughout the day. The system identifies peak traffic periods, classifies congestion levels, generates visual graphs, exports analytical reports, and provides useful insights into traffic behavior using Python data analysis techniques.
+
+## Technologies Used
+
 - Python
 - Pandas
+- NumPy
 - Matplotlib
-- Google Sheets
+- CSV Data Processing
 - GitHub
+- Google Sheets
+
+## Outputs Generated
+
+- Traffic Probability Analysis
+- Traffic Classification Report
+- Peak Hour Detection
+- Morning Rush Analysis
+- Evening Rush Analysis
+- CSV Export File
+- Line Graph Visualization
+- Bar Chart Visualization
+- Histogram Distribution Analysis
+- Detailed Hourly Traffic Report
 
 
 https://github.com/kashifzargar187/traffic-probability-model
